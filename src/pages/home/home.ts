@@ -4,6 +4,7 @@ import {DevicePage} from '../device/device';
 import { BLE } from '@ionic-native/ble';
 
 @Component({
+    selector: 'page-home',
     templateUrl: 'home.html',
     providers: [ BLE ]
 })
