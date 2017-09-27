@@ -1,0 +1,27 @@
+{
+    "ios": {
+        "debug": {
+            "codeSignIdentity": "iPhone Developer",
+            "developmentTeam": "2Q9K4PTC54",
+            "provisioningProfile": "e8775d17-8cff-42c6-991a-e8f5024bdc5a",
+            "packageType": "development"
+
+        },
+
+        "release": {
+            "codeSignIdentity": "iPhone Distribution",
+            "developmentTeam": "2Q9K4PTC54",
+            "provisioningProfile": "c8e9aedd-696d-4cb5-b887-22dca91cd838",
+            "packageType": "app-store"
+        }
+    },
+    "android": {
+        "release": {
+            "keystore": "keystores/equestic-release-key.jks",
+            "storePassword": "NTDAng8rgS",
+            "alias": "equestic",
+            "password" : "NTDAng8rgS",
+            "keystoreType": ""
+        }
+    }
+}
