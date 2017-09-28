@@ -1,6 +1,12 @@
-<ion-navbar *navbar>
+<ion-header>
+<ion-navbar>
     <ion-title>{{device.name}}</ion-title>
+
+    <ion-buttons end>
+        <button (click) = "disconnect()" >Disconnect</button>
+    </ion-buttons>
 </ion-navbar>
+</ion-header>
 <ion-content>
     <ion-list inset>
         <ion-item-sliding *ngFor="let characteristic of characteristics" #slidingItem>
@@ -12,5 +18,4 @@
             </button>
         </ion-item-sliding>
     </ion-list>
-    <ion-spinner *ngIf="connecting==true" name="circles"></ion-spinner>
 </ion-content>
