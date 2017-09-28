@@ -86,7 +86,6 @@
             </array>
         </config-file>
     </platform>
-    <engine name="android" spec="^6.2.3" />
     <plugin name="cordova-custom-config" spec="~4.0.2" />
     <plugin name="cordova-plugin-ble-central" spec="~1.1.4" />
     <plugin name="cordova-plugin-device" spec="^1.1.6" />
@@ -101,4 +100,5 @@
     </feature>
     <preference name="CordovaWebViewEngine" value="CDVWKWebViewEngine" />
     <plugin name="cordova-plugin-ionic-webview" spec="^1.1.8" />
+    <engine name="android" spec="~6.2.3" />
 </widget>
